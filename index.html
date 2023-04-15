@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Array</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="mainWrapper">
+        <h1>New Employees</h1>
+        <form id="form" action="">
+            <div class="fieldWrapper">
+                <div class="formField">
+                    <label for="inputName">Enter Name</label>
+                    <input type="text" id="inputName" placeholder="Enter Your Name" >
+                </div>
+                <div class="formField">
+                    <label for="inputProfession">Enter Profession</label>
+                    <input type="text" id="inputProfession" placeholder="Enter Your Profession" >
+                </div>
+                <div class="formField">
+                    <label for="inputAge">Enter Age</label>
+                    <input type="number" id="inputAge" placeholder="Enter Your Age" >
+                </div>
+            </div>
+            <button type="submit">Add User</button>
+        </form>
+        <p class="errorMessage">Error : Please Make sure All the fields are filled before adding in an employee !</p>
+        <p class="successMessage">Success : Employee Added!</p>
+        <h1 class="addedHeading">Added Employees </h1>
+        <p class="zeroEmployee">You have 0 Employees.</p>
+        <div class="employeeListWrapper" id="employeeList">
+            
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
